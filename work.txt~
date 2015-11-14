@@ -1,0 +1,12 @@
+Công việc cần làm:
+1. Client side:
+- Đọc file ra các block lưu vào xâu StrCli.
+- Chuyển xâu start sau khi kết nối với server: lưu thông tin theo dạng [flag,tên file] flag là 0 thì mã hóa, 1 thì giải mã. tên file để lưu ra file bên server 
+- Chuyển lần lượt các xâu StrCli. Chuyển xâu StrCli cho Server.
+- Chuyển xâu end: .
+2. Server Side:
+- Có client kết nối: 
+	- đọc xâu start theo định dạng và xác định nhiệm vụ 
+	- tạo file A dạng "Encription"+tên file hay "Decription"+ tên file 
+- Đọc STrCli từ client và giải mã ra xâu STrServ.
+- Ghi StrServ lần lượt ra file A.
